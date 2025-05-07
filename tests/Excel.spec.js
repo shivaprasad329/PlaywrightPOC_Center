@@ -30,4 +30,5 @@ function readExcel(path) {
   const jsonSheet = XLSX.utils.sheet_to_json(sheet);
   console.log(jsonSheet);
   return jsonSheet;
+  console.log("Excel data read successfully");
 }
